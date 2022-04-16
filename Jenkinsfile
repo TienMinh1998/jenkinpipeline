@@ -8,7 +8,7 @@ pipeline{
         }
          stage("build iamges"){
             steps{
-                 echo "build iamge"
+                 echo 'Nguyen Viet Minh Tien'
             }
         }
     }
