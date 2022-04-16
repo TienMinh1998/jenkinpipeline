@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage("Clone github"){
+         stage("build iamges"){
             steps{
-                 git 'https://github.com/TienMinh1998/jenkinpipeline.git'
+                 echo 'Nguyen Viet Minh Tien'
             }
         }
     }
