@@ -13,7 +13,7 @@ pipeline{
         }
          stage("devploy"){
             steps{
-                 echo 'Finish jenkins demo'
+                 bat 'docker ps'
             }
         }
     }
