@@ -13,6 +13,7 @@
                  bat 'dotnet build'
                  bat 'docker stop demo'
                  bat 'docker rm -f demo'
+                 bat 'docker rmi jenkinsdemo'
                  bat 'docker build -t jenkinsdemo .'
                  bat 'docker run -it -d -p 8181:80 --name demo -e ASPNETCORE_ENVIRONMENT=Development jenkinsdemo'
                  echo 'MT007'
