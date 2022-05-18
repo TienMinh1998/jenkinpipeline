@@ -13,7 +13,7 @@ pipeline{
         }
          stage("devploy"){
             steps{
-                 echo 'Finish'
+                 echo 'Finish jenkins demo'
             }
         }
     }
