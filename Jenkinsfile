@@ -16,6 +16,7 @@
                  bat 'docker build -t jenkinsdemo .'
                  bat 'docker run -it -d -p 8181:80 --name demo -e ASPNETCORE_ENVIRONMENT=Development jenkinsdemo'
                  echo 'MT007'
+                 echo 'Nguyen Viet Minh Tien'
             }
         }
          stage("devploy"){
