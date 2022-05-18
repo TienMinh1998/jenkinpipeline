@@ -11,5 +11,10 @@ pipeline{
                  echo 'Nguyen Viet Minh Tien'
             }
         }
+         stage("devploy"){
+            steps{
+                 echo 'Finish'
+            }
+        }
     }
 }
