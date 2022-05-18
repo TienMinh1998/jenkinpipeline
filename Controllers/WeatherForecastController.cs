@@ -1,3 +1,4 @@
+using jenkinpipeline.Core;
 using Microsoft.AspNetCore.Mvc;
 
 namespace jenkinpipeline.Controllers;
@@ -28,5 +29,10 @@ public class WeatherForecastController : ControllerBase
             Summary = Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
+    }
+    [HttpGet("GetName")]
+    public JsonResultModel Getname()
+    {
+        return new JsonResultModel{Data=null,Message="SUCCESS",Status=200};
     }
 }
