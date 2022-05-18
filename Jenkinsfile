@@ -15,6 +15,7 @@
             steps{
                  bat 'docker ps'
                  bat 'docker images'
+                 bat 'docker ps -a'
             }
         }
     }
