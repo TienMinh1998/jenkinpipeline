@@ -14,6 +14,7 @@ pipeline{
          stage("devploy"){
             steps{
                  bat 'docker ps'
+                 bat 'docker images'
             }
         }
     }
